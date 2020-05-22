@@ -9,5 +9,23 @@ public class PaperItem extends LibraryItem{
         this.publisher = publisher;
     }
 
-    public int getPageCount()
+    public int getPageCount() {
+        return pageCount;
+    }
+    public String getAuthor() {
+        return author;
+    }
+    public String getPublisher() {
+        return publisher;
+    }
+
+    public void setPageCount(int pageCount) {
+        this.pageCount = pageCount;
+    }
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+    public void setPublisher(String publisher) {
+        this.publisher = publisher;
+    }
 }
